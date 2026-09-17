@@ -1,0 +1,92 @@
+[
+  {
+    "id": "engineer-build-code",
+    "name": "Engineer",
+    "Aptitude": "Code",
+    "type": "Build",
+    "price": 1700,
+    "image": "images/Engi_Act.jpg",
+    "description": "สายวิศวกรสายปฏิบัติ เน้นลงมือสร้างจริง ประกอบวงจร เขียนโค้ดควบคุมระบบ และทดสอบต้นแบบร่วมกับทีมภาคสนาม"
+  },
+  {
+    "id": "engineer-research-calculate",
+    "name": "Engineer",
+    "Aptitude": "Calculate",
+    "type": "Research",
+    "price": 2500,
+    "image": "images/Engi.jpg",
+    "description": "สายวิศวกรรมเชิงวิจัย ใช้การคำนวณและข้อมูลเชิงลึกออกแบบระบบ วิเคราะห์วงจรและวางแผนงานเทคนิคขั้นสูง"
+  },
+  {
+    "id": "architect-build-calculate",
+    "name": "Architect",
+    "Aptitude": "Calculate",
+    "type": "Build",
+    "price": 1200,
+    "image": "images/Archi_Cre.jpg",
+    "description": "สถาปนิกสายสร้างสรรค์ ออกแบบโครงสร้างและหุ่นจำลอง คำนวณโครงสร้างเพื่อสร้างงานจริงร่วมกับทีม"
+  },
+  {
+    "id": "architect-research-calculate",
+    "name": "Architect",
+    "Aptitude": "Calculate",
+    "type": "Research",
+    "price": 2200,
+    "image": "images/Archi_Re.jpg",
+    "description": "สถาปนิกสายวิจัย เจาะลึกข้อมูลวัสดุและพลังงาน คำนวณประสิทธิภาพอาคารเพื่อออกแบบสถาปัตยกรรมแห่งอนาคต"
+  },
+  {
+    "id": "programmer-build-code",
+    "name": "Programmer",
+    "Aptitude": "Code",
+    "type": "Build",
+    "price": 2000,
+    "image": "images/Program_Create.jpg",
+    "description": "โปรแกรมเมอร์สายสร้าง เขียนโค้ด พัฒนาและดีพลอยระบบคลาวด์ ลงมือทำจริงตั้งแต่ต้นจนจบ"
+  },
+  {
+    "id": "programmer-research-code",
+    "name": "Programmer",
+    "Aptitude": "Code",
+    "type": "Research",
+    "price": 3200,
+    "image": "images/Program_Re.jpg",
+    "description": "โปรแกรมเมอร์สายวิจัย วิเคราะห์ข้อมูลและระบบเชิงลึก เขียนโค้ดเพื่อขับเคลื่อนงานวิจัยและนวัตกรรมระดับสูง"
+  },
+  {
+    "id": "sales-build-remember",
+    "name": "Sales",
+    "Aptitude": "Remember",
+    "type": "Build",
+    "price": 700,
+    "image": "images/sales_Cre.jpg",
+    "description": "สายขายที่ใช้ความจำและความสัมพันธ์ สร้างกลยุทธ์และเรื่องราวความสำเร็จเพื่อปิดการขาย"
+  },
+  {
+    "id": "sales-build-act",
+    "name": "Sales",
+    "Aptitude": "Act",
+    "type": "Build",
+    "price": 400,
+    "image": "images/Sales_Act.jpg",
+    "description": "สายขายที่เน้นลงมือทำจริง ริเริ่มเจรจาและปิดดีลด้วยความมั่นใจและความรวดเร็ว"
+  },
+  {
+    "id": "researcher-research-remember",
+    "name": "Researcher",
+    "Aptitude": "Remember",
+    "type": "Research",
+    "price": 2170,
+    "image": "images/Research_remem.jpg",
+    "description": "นักวิจัยที่ใช้ความจำเชื่อมโยงข้อมูลในอดีต ต่อยอดองค์ความรู้เพื่อขับเคลื่อนโครงการใหม่"
+  },
+  {
+    "id": "researcher-research-act",
+    "name": "Researcher",
+    "Aptitude": "Act",
+    "type": "Research",
+    "price": 1490,
+    "image": "images/Research_Act.jpg",
+    "description": "นักวิจัยสายลงมือปฏิบัติ นำผลวิจัยไปทดลองใช้จริงและปรับปรุงอย่างต่อเนื่อง"
+  }
+]

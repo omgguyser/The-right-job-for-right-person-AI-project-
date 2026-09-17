@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>รายการสมัคร — Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+  }
+  table#ordersTable {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 760px;
+    font-size: 0.88rem;
+  }
+  table#ordersTable thead th {
+    text-align: left;
+    padding: 1rem 1.2rem;
+    background: var(--color-carbon-2);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+    border-bottom: 1px solid var(--color-line-strong);
+    white-space: nowrap;
+  }
+  table#ordersTable tbody td {
+    padding: 1rem 1.2rem;
+    border-bottom: 1px solid var(--color-line);
+    color: var(--color-text-soft);
+    vertical-align: top;
+  }
+  table#ordersTable tbody tr:hover {
+    background: rgba(245, 240, 232, 0.03);
+  }
+  table#ordersTable tbody tr:last-child td {
+    border-bottom: none;
+  }
+</style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">THE RIGHT JOB<br>FOR RIGHT PERSON</a>
+      <nav class="navbar__links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">ตำแหน่งงานทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section section--tight">
+    <div class="container">
+      <p class="eyebrow" style="display:block;">Admin</p>
+      <h1 style="margin-bottom:var(--space-lg);">รายการผู้สมัครทั้งหมด</h1>
+
+      <div class="table-wrap">
+        <table id="ordersTable">
+          <thead>
+            <tr>
+              <th>วันเวลา</th>
+              <th>ชื่อลูกค้า</th>
+              <th>เบอร์โทร/Line</th>
+              <th>รายการสินค้า</th>
+              <th>จำนวนเงินรวม</th>
+              <th>หมายเหตุ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- script.js จะดึงข้อมูลจาก CSV มา render แถวต่างๆ ลงตรงนี้ -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>&copy; 2026 The Right Job For Right Person</span>
+      <span>งานที่ใช่ สำหรับคนที่ชอบ</span>
+    </div>
+  </footer>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
