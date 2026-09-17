@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ตำแหน่งงานทั้งหมด — The Right Job For Right Person</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* สไตล์เฉพาะแถบปุ่มกรอง ใช้ร่วมกับ .btn เดิมใน style.css */
+  #filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    justify-content: center;
+    margin-bottom: var(--space-lg);
+  }
+  .filter-btn {
+    padding: 0.6rem 1.6rem;
+    font-size: 0.72rem;
+  }
+  .filter-btn--active {
+    background: var(--color-accent);
+    color: var(--color-black);
+    border-color: var(--color-accent);
+  }
+</style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">THE RIGHT JOB<br>FOR RIGHT PERSON</a>
+      <nav class="navbar__links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">ตำแหน่งงานทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section section--tight">
+    <div class="container">
+      <p class="eyebrow text-center" style="display:block;">ตำแหน่งงานทั้งหมด</p>
+      <h1 class="text-center" style="margin-bottom:var(--space-lg);">เลือกเส้นทางที่ใช่สำหรับคุณ</h1>
+
+      <div id="filter-bar"></div>
+
+      <div id="product-list" class="product-grid">
+        <!-- script.js จะ render การ์ดสินค้าลงตรงนี้ -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>&copy; 2026 The Right Job For Right Person</span>
+      <span>งานที่ใช่ สำหรับคนที่ชอบ</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
